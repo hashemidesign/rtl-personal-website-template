@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MHashemi Personal Blog</title>
+    <link rel="stylesheet" href="./assets/vendors/bootstrap-5.1.3/css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/fa.css" />
+    <link rel="stylesheet" href="./assets/css/custom.css" />
+    <link rel="stylesheet" href="./assets/vendors/bs-icons/bs-font.css" />
+</head>
+
+<body class="position-relative">
+    <header class="position-relative">
+        <img id="header-bg" src="./assets/images/header-bg.png" alt="Mohsen Hashemi" />
+        <div id="header-container" class="">
+            <div id="top-navigation">
+                <div class="d-flex justify-content-between align-items-center container">
+                    <a href="./index.html" class="d-flex align-items-center">
+                        <img src="./assets/images/avatar.png" alt="logo" class="img-fluid" />
+                        <div class="d-flex flex-column ms-2">
+                            <h2 class="m-0">محسن هاشمی</h2>
+                            <h4 class="m-0">طراح و توسعه دهنده <span>وب و موبایل</span></h4>
+                        </div>
+                    </a>
+
+                    <div class="d-flex nav-links">
+                        <a href="./index.html" class="me-4">صفحه نخست</a>
+                        <a href="./blog.html">وبلاگ</a>
+                    </div>
+
+                    <button class="btn btn-default" id="burger-menu">
+                        <i class="bi-list"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="header-description container">
+                <h1 class="mt-0">وبلاگ</h1>
+                <h3>دلنوشته ها و مطالب تخصصی من رو می تونید اینجا بخونید</h3>
+                <div class="d-flex flex-column">
+                    <p class="mb-0">
+                        اگه مطلبی به دلتون نشست و یا براتون مفید بود حتما اون رو
+                        <span>به اشتراک</span> بزارید :)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <div class="text-end">
+            <button class="btn-close" id="close-menu"></button>
+        </div>
+        <div class="mt-4 text-center w-100">
+            <a href="#">
+                <img src="./assets/images/avatar.png" class="img-fluid" alt="">
+            </a>
+        </div>
+        <div class="mobile-links d-flex flex-column align-items-center justify-content-center text-center">
+            <form class="mt-4 w-100 px-3">
+                <input type="search"class="form-control" placeholder="جستجو">
+            </form>
+            
+            <div class="mt-4 d-flex flex-column">
+                <a href="./index.html" class="mb-4">صفحه نخست</a>
+                <a href="./blog.html">وبلاگ</a>
+            </div>
+            
+            <div class="mt-auto py-3 w-100 bg-green mobile-footer">
+                <p>من را در شبکه های اجتماعی دنبال کنید</p>
+                <a href="#"><i class="mx-2 bi-linkedin"></i></a>
+                <a href="#"><i class="mx-2 bi-facebook"></i></a>
+                <a href="#"><i class="mx-2 bi-instagram"></i></a>
+                <a href="#"><i class="mx-2 bi-telegram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="mb-5">
+                    <h3 class="sidebar-title">آخرین پست ها</h3>
+                    <div class="card sidebar-post mb-2">
+                        <div class="card-body">
+                            <a href="#" class="d-flex align-items-center">
+                                <img src="./assets/images/sample-1.jpg" alt="" class="img-fluid me-2" />
+                                <div class="d-flex flex-column">
+                                    <span>۲۰ اذر ۱۴۰۰</span>
+                                    <h2>تهیه اسلاگ فارسی در پایتون</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card sidebar-post mb-2">
+                        <div class="card-body">
+                            <a href="#" class="d-flex align-items-center">
+                                <img src="./assets/images/sample-2.jpg" alt="" class="img-fluid me-2" />
+                                <div class="d-flex flex-column">
+                                    <span>۲۰ اذر ۱۴۰۰</span>
+                                    <h2>فرمت دهی ارقام در فلاتر</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card sidebar-post mb-2">
+                        <div class="card-body">
+                            <a href="#" class="d-flex align-items-center">
+                                <img src="./assets/images/sample-3.jpg" alt="" class="img-fluid me-2" />
+                                <div class="d-flex flex-column">
+                                    <span>۲۰ اذر ۱۴۰۰</span>
+                                    <h2>آموزش فلسک قمست اول</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="card sidebar-post mb-2">
+                        <div class="card-body">
+                            <a href="#" class="d-flex align-items-center">
+                                <img src="./assets/images/sample-4.jpg" alt="" class="img-fluid me-2" />
+                                <div class="d-flex flex-column">
+                                    <span>۲۰ اذر ۱۴۰۰</span>
+                                    <h2>استفاده از VueJS در پروژه فلسک</h2>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-5">
+                    <h3 class="sidebar-title">دسته بندی ها</h3>
+                    <ul class="list-group">
+                        <li class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-start
+                ">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold"><a href="#">پایتون</a></div>
+                            </div>
+                            <span class="badge bg-green rounded-pill">14</span>
+                        </li>
+                        <li class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-start
+                ">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold"><a href="#">جاوا اسکریپت</a></div>
+                            </div>
+                            <span class="badge bg-green rounded-pill">14</span>
+                        </li>
+                        <li class="
+                  list-group-item
+                  d-flex
+                  justify-content-between
+                  align-items-start
+                ">
+                            <div class="ms-2 me-auto">
+                                <div class="fw-bold"><a href="#">فلاتر</a></div>
+                            </div>
+                            <span class="badge bg-green rounded-pill">14</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="mb-5 d-flex align-items-center make-column">
+                    <h3 class="sidebar-title flex-grow-1 mb-0 me-4">پست های من</h3>
+                    <form>
+                        <input type="text" class="form-control" placeholder="جستجو" />
+                    </form>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mb-5">
+                    <div class="col">
+                        <div class="card w-100 h-100">
+                            <img src="./assets/images/sample-1.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">تهیه اسلاگ فارسی در پایتون</h5>
+                                <p class="card-text">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                                    با استفاده از طراحان ...
+                                </p>
+                                <a href="./post.html" class="btn btn-link">ادامه پست
+                                    <i class="bi-chevron-double-left font-size-12"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 h-100">
+                            <img src="./assets/images/sample-2.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">فرمت دهی ارقام در فلاتر</h5>
+                                <p class="card-text">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                                    با استفاده از طراحان ...
+                                </p>
+                                <a href="./post.html" class="btn btn-link">ادامه پست
+                                    <i class="bi-chevron-double-left font-size-12"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 h-100">
+                            <img src="./assets/images/sample-1.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">آموزش فلسک قمست اول</h5>
+                                <p class="card-text">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                                    با استفاده از طراحان ...
+                                </p>
+                                <a href="./post.html" class="btn btn-link">ادامه پست
+                                    <i class="bi-chevron-double-left font-size-12"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 h-100">
+                            <img src="./assets/images/sample-4.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">استفاده از VueJS در پروژه فلسک</h5>
+                                <p class="card-text">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                                    با استفاده از طراحان ...
+                                </p>
+                                <a href="./post.html" class="btn btn-link">ادامه پست
+                                    <i class="bi-chevron-double-left font-size-12"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card w-100 h-100">
+                            <img src="./assets/images/sample-2.jpg" class="card-img-top" alt="..." />
+                            <div class="card-body">
+                                <h5 class="card-title">آموزش فلسک قمست دوم</h5>
+                                <p class="card-text">
+                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و
+                                    با استفاده از طراحان ...
+                                </p>
+                                <a href="./post.html" class="btn btn-link">ادامه پست
+                                    <i class="bi-chevron-double-left font-size-12"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav aria-label="...">
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link">قبلی</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">بعدی</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center">
+                <p class="m-0">کپی رایت تحت گواهی MIT</p>
+                <div>
+                    <a href="#"><i class="mx-2 bi-linkedin"></i></a>
+                    <a href="#"><i class="mx-2 bi-facebook"></i></a>
+                    <a href="#"><i class="mx-2 bi-instagram"></i></a>
+                    <a href="#"><i class="mx-2 bi-telegram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button onclick="scrollToTop()" id="scroll-to-top">
+        <i class="bi-arrow-up-square"></i>
+    </button>
+</body>
+
+<script src="./assets/js/main.js"></script>
+
+</html>
